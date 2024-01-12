@@ -37,6 +37,8 @@ a {
     text-decoration: none;
 }
 
+/* Design For the first section */
+
 #signup-but{
     width:117.11503px;
     height: 48.55751px;
@@ -69,6 +71,11 @@ a {
 
 .box1{
     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:0px;
+    height: 400px;
+    
     
 }
 
@@ -121,4 +128,162 @@ a {
     
     
 }
-  
+
+#round-blue-circle{
+    width: 450px;
+    height: 450px;
+    background-color: rgb(3, 172, 228);
+    border-radius: 225px;
+    box-shadow: 2px 2px rgb(3, 172, 228);
+    position:relative;
+    right:1%;
+    bottom:0%;
+    align-self: center;
+    z-index: -1;
+}
+
+#first-vector{
+    position: relative;
+    bottom:420px;
+    right: 50px;
+    z-index: 1;
+}
+
+
+#woman-globe{
+    position: relative;
+    bottom:765px;
+    right: 0px;
+    z-index: 1;
+    height: 500px;
+}
+
+#a1{
+    margin-right: 250px;
+   
+}
+
+#first-vector1{
+    position: relative;
+    bottom:850px;
+    right: -80px;
+    z-index: 1;
+}
+
+
+#left-dot{
+    position: relative;
+    bottom:1400px;
+    right: 165px;
+    z-index: 1;
+}
+
+#rigth-dot{
+    position: relative;
+    bottom:1500px;
+    right: -165px;
+    z-index: 1;
+    margin: 0px;
+}
+
+#left-plane{
+    position: relative;
+    bottom:1710px;
+    right: 15px;
+    z-index: 1;
+    margin: 0px;
+}
+
+
+#rigth-plane{
+    position: relative;
+    bottom:1615px;
+    right: 450px;
+    z-index: 1;
+    margin: 0px;
+}
+
+#top-places{
+    display:flex;
+    width: 171px;
+    height: 55px;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: space-around;
+    position: relative;
+    bottom:1315px;
+    right: -250px;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 4px 4px  #f9fafa;
+    margin: 0px;
+}
+
+#top-text{
+    font-family: Poppins;
+    font-size: 13.806px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+    margin: 0px;
+}
+
+#top-hotels{
+    display:flex;
+    width: 171px;
+    height: 55px;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: space-around;
+    position: relative;
+    bottom:1455px;
+    right: 50px;
+    z-index: 1;
+    background-color: white;
+    box-shadow:4px 4px 4px 4px  #f9fafa;
+    margin-bottom: 0px;
+}
+
+#top-client{
+    display:flex;
+    width: 171px;
+    height: 82px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-around;
+    position: relative;
+    bottom:1655px;
+    right: -350px;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 4px 4px  #f9fafa;
+    margin-bottom: 0px;
+}
+
+/* Second Section Begins Here */
+
+
+
+.box2 {
+    padding: 50px; /* Adjust as needed */
+}
+
+
+#box2a{
+    display:flex;
+    justify-content: space-between;
+    padding-top:50px;
+    margin-left: 59px;
+    margin-right: 10px;
+}
+
+
+/* styling for the third section */
+
+.box3{
+    margin-left:90px;
+}
+
+#box3a{
+    width:250px;
+}
