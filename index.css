@@ -396,10 +396,6 @@ a {
     margin-top: 210px;
 }
 
-#box5a{
-
-    
-}
 
 #box5b{
 
@@ -429,4 +425,21 @@ a {
     border-radius: 20px;
     margin-left: 10px;
     margin-top: 10px;
+}
+
+#man-globe{
+    position: relative;
+    bottom:765px;
+    right: -35px;
+    z-index: 1;
+    height: 500px;
+}
+
+#get-started2{
+    margin-left: 120px;
+    display:flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-right: 20px;
+    width:260px;
 }
