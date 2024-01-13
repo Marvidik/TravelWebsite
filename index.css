@@ -282,8 +282,151 @@ a {
 
 .box3{
     margin-left:90px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 #box3a{
     width:250px;
+
+}
+
+
+/* style for the fourth section */
+
+
+.box4{
+    margin-top: 120px;
+    margin-left: 90px;
+}
+
+#explore{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+#forward-backward{
+    display:flex;
+    justify-content: space-between;
+    padding-left:40px;
+}
+
+#places{
+    display:flex;
+    justify-content: space-between;
+    margin-right:50px ;
+
+}
+
+#pi{
+    width:340px;
+    height: 270px;
+    box-shadow: 6px 10px 4px 4px #DDDBDA;
+    border-radius: 70px;
+}
+
+#locate{
+    margin-left:40px;
+    margin-top: 5px;
+}
+
+#locate-details{
+    margin-left:40px;
+    width:250px;
+    color: rgba(12, 17, 31, 0.60);
+    font-family: Poppins;
+    font-size: 15.423px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+#action{
+    display:flex;
+    justify-content: space-between;
+    background-color: #F7F7F780;
+    height: 70px;
+    border-bottom-left-radius: 43px;
+    border-bottom-right-radius: 43px;
+    padding-left: 40px;
+}
+
+#price{
+    padding-top: 30px;
+}
+#see-but{
+    width:95px;
+    height: 35px;
+    border-radius: 98.6px;
+    background-color: #5D50C6;
+    color:white;
+    border:0px;
+    align-self: center;
+    margin-right: 20px;
+    box-shadow: 2px 2px #5D50C6;
+}
+
+/* Styling For the Fifth box */
+
+.box5{
+    margin-left: 90px;
+    display:flex;
+    justify-content: space-between;
+    margin-right:50px;
+
+}
+
+#round-yellow-circle{
+    width: 450px;
+    height: 450px;
+    background-color: #FACD49;
+    border-radius: 225px;
+    box-shadow: 2px 2px #FACD49;
+    position:relative;
+    right:1%;
+    bottom:0%;
+    align-self: center;
+    z-index: -1;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    margin-top: 210px;
+}
+
+#box5a{
+
+    
+}
+
+#box5b{
+
+    align-self: center;
+}
+
+#black-woman{
+    align-self: flex-end;
+    height: 600px;
+}
+
+#bi{
+    width:400px;
+}
+#bii{
+    display:flex;
+    justify-content: space-between;
+}
+#stats{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:200px;
+    height:110px;
+    border: 1px solid #DDDBDA;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
