@@ -443,3 +443,192 @@ a {
     margin-right: 20px;
     width:260px;
 }
+
+
+/* Style for section six 6 */
+
+
+.box6{
+    display:flex;
+    margin-top:140px;
+    justify-content: space-between;
+}
+
+
+#box6b{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    padding:20px;
+    margin:20px;
+}
+#dest2{
+    margin-left: 110px;
+    font-size: 40px;
+    width:390px;
+}
+
+#ipic{
+    margin-left: 110px;
+    width:410px;
+    height: 210px;
+}
+
+#icon-info{
+    display:flex;
+    padding:0px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+h4{
+    font-family: Poppins;
+    font-size: 23.668px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.613px; /* 116.667% */
+    text-transform: capitalize; margin:0px;
+}
+
+#icon-info2{
+    display:flex;
+    flex-direction: column;
+   
+    margin:0px;
+    margin-left: 5px;
+}
+
+#dest1{
+    margin-left:20px;
+}
+
+/* for second to the last section */
+.box7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#newsletter {
+    background-color: #FACD49;
+    height: 300px;
+    width: 80%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+#info3 {
+    width: 360px;
+    align-self: center;
+    color: var(--Black-75, rgba(25, 24, 37, 0.75));
+    text-align: center;
+    /* mediumpoppins */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.64px;
+}
+
+#form-field {
+    height: 59px;
+    width: 444px;
+    border-radius: 11.8px;
+    border: 0px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Added this line */
+}
+
+#buttonform {
+    display: flex;
+}
+
+#dest3 {
+    color: #2D3134;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 39.447px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39.447px; /* 100% */
+    letter-spacing: 0.059px;
+    align-self: center;
+}
+
+/* Added this styling for the icon */
+#form-field img {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+
+/* styling for last section */
+
+.linkers{
+    display:flex;
+    margin-top: 70px;
+    margin-left: 120px;
+    margin-bottom: 70px;
+
+}
+
+#info4{
+    width: 360px;
+    color: var(--Black-75, rgba(25, 24, 37, 0.75));
+    /* mediumpoppins */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.64px;
+    margin-left: 0px;
+}
+#sos{
+    margin-left: 20px;
+    display:flex;
+    margin-top: 40px;
+}
+
+#s{
+    padding-left: 20px;
+}
+
+
+/* styling for foter */
+
+#foot{
+    display:flex;
+    margin-left: 130px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+#li{
+    color: var(--Neutral-600, #6F6C90);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 15.779px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.723px;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+#ft{
+    color: var(--Neutral-600, #6F6C90);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 15.779px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.585px;
+}
